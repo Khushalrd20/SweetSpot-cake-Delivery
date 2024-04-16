@@ -1,0 +1,9 @@
+// to run app 
+ng serve -o 
+
+
+//to create a app
+npm install -g  @angular/cli
+
+//angular modules
+ng new frontend --skip-tests
