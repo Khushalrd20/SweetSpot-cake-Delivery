@@ -1,21 +1,19 @@
-import { Food } from "./app/shared/models/Food"
-import { Tag } from "./app/shared/models/tag"
 
-export const sample_foods: Food[] = [
+
+export const sample_foods: any[] = [
     {
-      id: '1',
-      name: 'Chocky Slice',
-      cookTime: '10-20',
-      price: 10,
-      favorite: false,
-      origins: ['indian'],
-      stars: 4.5,
-      imageUrl: 'assets/food-1.jpg',
-      tags: ['Choclate', 'Chocky slice', 'sweet'],
-      length: undefined
-    },
+    id:'1',
+    name: 'Chocky Slice',
+    cookTime: '10-20',
+    price: 10,
+    favorite: false,
+    origins: ['indian'],
+    stars: 4.5,
+    imageUrl: 'assets/food-1.jpg',
+    tags: ['Choclate', 'Chocky slice', 'sweet'],
+  },
   {
-    id: '2',
+    id:'2',
     name: 'Fox Cholite',
     price: 20,
     cookTime: '20-30',
@@ -23,11 +21,10 @@ export const sample_foods: Food[] = [
     origins: ['persia', 'middle east', 'china'],
     stars: 4.7,
     imageUrl: 'assets/food-2.jpg',
-    tags: ['creamy', 'Lunch', 'Pestry'],
-    length: undefined
+    tags: ['creamy', 'Lunch' ,'Pestry'],
   },
   {
-    id: '3',
+    id:'3',
     name: 'Butter Cake',
     price: 5,
     cookTime: '10-15',
@@ -36,10 +33,9 @@ export const sample_foods: Food[] = [
     stars: 3.5,
     imageUrl: 'assets/food-3.jpg',
     tags: ['butter', 'Cake'],
-    length: undefined
   },
   {
-    id: '4',
+    id:'4',
     name: 'Black Forest Cake',
     price: 2,
     cookTime: '15-20',
@@ -48,10 +44,9 @@ export const sample_foods: Food[] = [
     stars: 3.3,
     imageUrl: 'assets/food-4.jpg',
     tags: ['Black forest', 'cake'],
-    length: undefined
   },
   {
-    id: '5',
+    id:'5',
     name: 'Funfetti Cake',
     price: 11,
     cookTime: '40-50',
@@ -60,10 +55,9 @@ export const sample_foods: Food[] = [
     stars: 3.0,
     imageUrl: 'assets/food-5.jpg',
     tags: ['funfetti cake', 'Soup'],
-    length: undefined
   },
   {
-    id: '6',
+    id:'6',
     name: 'Tiramisu Cake',
     price: 9,
     cookTime: '40-50',
@@ -72,11 +66,10 @@ export const sample_foods: Food[] = [
     stars: 4.0,
     imageUrl: 'assets/food-6.jpg',
     tags: ['Tiramisu Cake', 'pestry', 'Lunch'],
-    length: undefined
   },
 ]
 
-export const sample_tags:Tag[]=[
+export const sample_tags:any[]=[
   { name: 'All', count: 6 },
   { name: 'Choclate', count: 4 },
   { name: 'Pestry', count: 2 },
