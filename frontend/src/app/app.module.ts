@@ -41,8 +41,7 @@ import { ReactiveFormsModule } from '@angular/forms';
         HeaderComponent,
         HttpClientModule,
         ReactiveFormsModule
-        
-        
+            
     ]
 })
 export class AppModule { }
